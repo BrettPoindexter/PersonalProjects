@@ -1,4 +1,5 @@
 # test
-Hello
-My name is Brett Poindexter
-I am a Computer Software student at UAGC
+Hello\n
+My name is Brett Poindexter\n
+I am a Computer Software student at UAGC\n
+I'm also attending Fullstack Academy\n
