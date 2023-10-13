@@ -1,74 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="GroceryList.css" />
-  <title>Grocery List</title>
-</head>
-<body>
-  <h1 id="main">My Very Organized Grocery List</h1>
-  <section>
-    <table cellspacing="25">
-      <thead>
-        <tr>
-          <th colspan="2">
-            <h1 id="pantry">PANTRY ITEMS</h1>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <h2>CANNED GOODS</h2>
-            <ul>
-              <li>Corn</li>
-              <li>Green Beans</li>
-              <li>Black Beans</li>
-            </ul>
-          </td>
-          <td>
-            <h2>DRY GOODS</h2>
-            <ul>
-              <li>Flour</li>
-              <li>Sugar</li>
-              <li>Baking Soda</li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="GroceryList.css" />
+    <style>
+      body {
+        background-color: #41B3A3;
+        margin-left: 25%
+      }
+    </style>
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <h1 id="main">My Very Organized Grocery List</h1>
 
-  <section>
-    <table cellspacing="25">
-      <thead>
-        <tr>
-          <th colspan="2">
-            <h1 id="freezer">FREEZER ITEMS</h1>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <h2>VEGGIES</h2>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </td>
-          <td>
-            <h2>SNACKS</h2>
-            <ul>
-              <li></li>
-              <li></li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-</body>
+    <section>
+      <table cellspacing="25">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <h2 id="pantry">PANTRY ITEMS</h2>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <h3 id="canned">CANNED GOODS</h3>
+              <ul>
+                <li>Corn</li>
+                <li>Green Beans</li>
+                <li>Black Beans</li>
+              </ul>
+            </td>
+            <td>
+              <h3 id="dry">DRY GOODS</h3>
+              <ul>
+                <li>Flour</li>
+                <li>Sugar</li>
+                <li>Baking Soda</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+        <img
+          id="pantry_img"
+          src="https://plus.unsplash.com/premium_photo-1664527308003-82ef756f40e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          height="300"
+        />
+      </table>
+    </section>
+
+    <br />
+    <br />
+
+    <section>
+      <table cellspacing="25">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <h2 id="freezer">FREEZER ITEMS</h2>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <h3 id="veggies">VEGGIES</h3>
+              <ol>
+                <li>Corn on the Cob</li>
+                <li>Broccoli</li>
+                <li>Mixed Veggies</li>
+              </ol>
+            </td>
+            <td>
+              <h3 id="snacks">SNACKS</h3>
+              <ol>
+                <li>Ice Cream</li>
+                <li>Popsicles</li>
+                <li>Cookie Dough</li>
+              </ol>
+            </td>
+          </tr>
+        </tbody>
+        <img
+          id="freezer_img"
+          src="https://images.unsplash.com/photo-1606859191214-25806e8e2423?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2035&q=80"
+          height="315"
+        />
+      </table>
+    </section>
+  </body>
 </html>
