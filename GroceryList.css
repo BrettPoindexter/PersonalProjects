@@ -7,6 +7,7 @@
   color: #143530;
   text-decoration: underline;
   text-shadow: 10px 5px 15px;
+  margin-left: 175px;
 }
 
 #canned {
@@ -42,42 +43,40 @@
 }
 
 #pantry_img {
-  padding-top: 50px
+  padding-top: 50px;
+  position: absolute;
+  margin-left: 650px;
 }
 
 #freezer_img {
   padding-top: 50px;
+  position: absolute;
+  margin-left: 650px;
 }
 
 table {
   border-style: inset;
   border: solid 5px;
-  background-color: #E27D60;
+  background-color: #e27d60;
   box-shadow: 15px 5px 5px #143530;
 }
 
 th {
   color: #4b301d;
   border: solid 2px;
-  background-color: #E8A87C;
+  background-color: #e8a87c;
   text-align: center;
-  box-shadow: 10px 5px 3px #3d1824
+  box-shadow: 10px 5px 3px #3d1824;
 }
 
 td {
   color: #36101c;
   border: solid 2px;
-  background-color: #C38D9E;
+  background-color: #c38d9e;
   width: 250px;
   box-shadow: 10px 5px 3px #3d1824;
 }
 
-
 h2 {
   text-align: center;
-}
-
-img {
-  position: absolute;
-  margin-left: 650px;
 }
