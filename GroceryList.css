@@ -1,0 +1,36 @@
+#pantry {
+  font-size: 45px;
+}
+
+#main {
+  font-size: 50px;
+  color: lightblue;
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(9, 27, 27);
+}
+
+table {
+  border-style: inset;
+  border: solid 5px;
+  background-color: grey;
+}
+
+th {
+  border: solid 2px;
+  background-color: slategrey;
+  text-align: center;
+}
+
+td {
+  border: solid 2px;
+  background-color: lightgrey;
+  width: 250px;
+}
+
+
+h2 {
+  text-align: center;
+}
