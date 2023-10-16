@@ -1,0 +1,21 @@
+body {
+    background-color: #F8F0E5;
+  }
+  
+  
+  button {
+    background-color: #0f2d59;
+    color: #F8F0E5;
+    width: 100px;
+  }
+  
+  h1 {
+    color:  #69635b;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  #about {
+    text-align: center;
+    color: #69635b;
+  }

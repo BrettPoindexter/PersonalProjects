@@ -9,7 +9,7 @@ button {
   width: 100px;
 }
 
-h1 {
+#main {
   color:  #69635b;
   text-align: center;
   font-size: 50px;
@@ -17,4 +17,5 @@ h1 {
 
 #flare {
   text-align: center;
+  color: #69635b;
 }
