@@ -41,6 +41,7 @@ function status() {
   
   statusOpenClose.addEventListener("click", () => {
     if (codeOne === '10' && codeTwo === '40' && codeThree === '39') {
+      alert("Congrats! You have opened the vault!")
       document.getElementById('status').innerText = "OPEN";
     } else{
       document.getElementById('status').innerText = "STILL CLOSED";
