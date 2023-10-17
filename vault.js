@@ -40,7 +40,7 @@ function status() {
   let codeThree = document.getElementById('Code3_Final').innerText;
   
   statusOpenClose.addEventListener("click", () => {
-    if (codeOne == 10 && codeTwo == 40 && codeThree == 39) {
+    if (codeOne === '10' && codeTwo === '40' && codeThree === '39') {
       document.getElementById('status').innerText = "OPEN";
     } else{
       document.getElementById('status').innerText = "STILL CLOSED";
