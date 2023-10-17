@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="vault.css" />
+    <script src="vault.js" defer></script>
+    <title>The Vault</title>
+  </head>
+  <body>
+    <h1>Enter the code to unlock the vault</h1>
+    <h2>For security purposes, you must enter the code in math format: </h2>
+    <br />
+    <br />
+    <br />
+    <div id="code_input">
+      <table id="vault_codes">
+        <thead>
+          <tr>
+            <th colspan="3">Vault Codes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="Code1">
+              Code #1
+              <input id="Code1-1" name="Code1-1" type="number" />
+              +
+              <input id ="Code1-2" name="Code1-2" type="number" />
+              <input id='plus_equal' type="button" value="=" onclick="code1();"/>
+              <td>
+                <p id="Code1_Final"></p>
+              </td>
+            </td>
+          </tr>
+          <tr>
+            <td id="Code2">
+              Code #2
+              <input id="Code2-1" name="Code2-1" type="number" />
+              -
+              <input id="Code2-2" name="Code2-2" type="number" />
+              <input id="minus_equal" type="button" value="=" onclick="code2();" />
+              <td>
+                <p id="Code2_Final"></p>
+              </td>
+            </td>
+          </tr>
+          <tr>
+            <td id="Code3">
+              Code #3
+              <input id="Code3-1" name="Code3-1" type="number" />
+              *
+              <input id="Code3-2" name="Code3-2" type="number" />
+              <input id="times_equal" type="button" value="=" onclick="code3();" />
+              <td>
+                <p id="Code3_Final"></p>
+              </td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <input id="openClose" type="button" value="Open the Vault" onclick="status();" />
+    <p id="status">CLOSED</p>
+
+  </body>
+  
+</html>
