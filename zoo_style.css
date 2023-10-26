@@ -2,7 +2,7 @@ body {
     background-color: tan;
 }
 
-h1 {
+#Title {
     font-size: 74px;
     text-align: center;
     text-decoration: underline;
@@ -34,4 +34,19 @@ article {
 
 img {
     border: solid 2px;
+}
+
+summary {
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
 }
